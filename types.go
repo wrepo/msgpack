@@ -192,9 +192,9 @@ func getFields(typ reflect.Type, fallbackTag string) *fields {
 			}
 		}
 
-		if f.PkgPath != "" && !f.Anonymous {
-			continue
-		}
+		//if f.PkgPath != "" && !f.Anonymous {
+		//	continue
+		//}
 
 		field := &field{
 			name:      tag.Name,
