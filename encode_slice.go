@@ -4,7 +4,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/vmihailenco/msgpack/v5/msgpcode"
+	"github.com/wrepo/msgpack/v5/msgpcode"
 )
 
 var stringSliceType = reflect.TypeOf(([]string)(nil))

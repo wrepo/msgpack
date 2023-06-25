@@ -3,9 +3,8 @@ package msgpack_test
 import (
 	"encoding/binary"
 	"fmt"
+	"github.com/wrepo/msgpack/v5"
 	"time"
-
-	"github.com/vmihailenco/msgpack/v5"
 )
 
 // https://github.com/fluent/fluentd/wiki/Forward-Protocol-Specification-v1#eventtime-ext-format

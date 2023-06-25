@@ -3,12 +3,11 @@ package msgpack_test
 import (
 	"bytes"
 	"encoding/json"
+	"github.com/wrepo/msgpack/v5"
 	"io/ioutil"
 	"math"
 	"testing"
 	"time"
-
-	"github.com/vmihailenco/msgpack/v5"
 )
 
 func BenchmarkDiscard(b *testing.B) {
